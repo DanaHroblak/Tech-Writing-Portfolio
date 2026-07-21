@@ -1,0 +1,26 @@
+# Cloud Storage Documentation Rewrite
+
+This project demonstrates how to transform dense, jargon-heavy technical notes into clear, user-friendly documentation.
+
+## The Challenge (Before)
+Below is the original text provided by the development team:
+
+> "Users should be cognizant of the fact that when utilizing our cloud data synchronization platform, files that are designated for removal must be securely migrated into the system's local repository titled 'Trash Bin' prior to permanent purging. To accomplish this initial phase, the operator must execute a right-click maneuver upon the specific file asset in question within the main interface viewport. Subsequent to this action, a context menu will manifest itself, whereupon the operator must carefully select the command function denoted as 'Move to Trash Bin'. Furthermore, please note that files will reside in said repository for a temporal duration of precisely thirty calendar days, after which automated deletion protocols will be initiated by the system architecture, rendering recovery utterly impossible unless the user proactively navigates to the Trash Bin and selects 'Restore Asset' beforehand."
+
+---
+
+## The Solution (After)
+Follow these steps to delete or restore files in the cloud platform.
+
+### Delete a file
+1. Right-click the file you want to remove.
+2. Select **Move to Trash Bin**.
+
+*Note: Deleted files remain in the Trash Bin for 30 days. After 30 days, the system permanently deletes them.*
+
+### Restore a file
+1. Open the **Trash Bin**.
+2. Locate the file you want to recover.
+3. Select **Restore Asset**.
+
+Important: You cannot restore a file once the 30-day window has expired.
